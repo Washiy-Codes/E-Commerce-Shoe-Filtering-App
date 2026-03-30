@@ -2,7 +2,7 @@ import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
 import "./Navigation.css";
 
-const Navigation = () => {
+const Navigation = ({ inputValue, handleInputChange }) => {
   return (
      <nav>
       <div className="nav-input">
@@ -10,6 +10,8 @@ const Navigation = () => {
           className="search-input"
           type="text"
           placeholder="Enter your search shoes."
+          value={inputValue}
+          onChange={handleInputChange}
         />
       </div>
       <div className="profile-container">
