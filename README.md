@@ -1,16 +1,48 @@
-# React + Vite
+# 🥿 Shoe Filtering App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Last Commit](https://img.shields.io/github/last-commit/your-username/shoe-filtering-app)
 
-Currently, two official plugins are available:
+A modern, responsive React application that allows users to **search, filter, and explore shoes** by category, brand, color, and price. Designed with a clean UI, reusable components, and efficient filtering logic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔎 Smart Search
+- Real-time search by shoe name
+- Case-insensitive and dynamic filtering
 
-## Expanding the ESLint configuration
+### 🎯 Advanced Filters
+- Filter by **Category**, **Brand**, **Color**, **Price**, and **Recommended tags**
+- Sidebar filters, recommended buttons, and radio buttons integrated seamlessly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ⚛️ Modern React Architecture
+- Component-driven design
+- Clean, reusable components (`Card`, `Sidebar`, `Navigation`, `Products`, `Recommended`)
+- Optimized filtering logic using `useState` and functional programming
+
+### 📱 Fully Responsive
+- Designed for **mobile, tablet, and desktop**
+- Flexible layout with **CSS Flexbox and Grid**
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|-----------|---------|
+| **React.js** | UI library for building components |
+| **JavaScript (ES6+)** | Frontend logic & interactivity |
+| **CSS / Flexbox / Grid** | Layout and responsive design |
+| **Vite / CRA** | Development and bundling |
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/shoe-filtering-app.git
