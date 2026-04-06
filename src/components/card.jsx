@@ -1,30 +1,28 @@
-import { IoBagCheck } from "react-icons/io5";
+import { BsFillBagFill } from "react-icons/bs";
 
-
-const card = ({ img, title, star, reviews, prevPrice, newPrice, company, color, category }) => {
+const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
   return (
-    <div className='card-container'>
-        <div className='card'>
-         <img src={img} alt={title}  />
-         <div className="card-details">
-          <h3 className='title'>{title}</h3>
-          </div>
-          <div className="card-reviews">
-            {star} {star} {star} {star} {star}
-            <span className='total-reviews'>{reviews}</span>
-          </div>
-          <div className="card-prices">
-            <div className='price'>
+    <fragment className="card-container">
+      <section className="card">
+        <img src={img} alt={title} className="card-img" />
+        <div className="card-details">
+          <h3 className="card-title">{title}</h3>
+          <section className="card-reviews">
+            {star} {star} {star} {star}
+            <span className="total-reviews">{reviews}</span>
+          </section>
+          <section className="card-price">
+            <div className="price">
               <del>{prevPrice}</del> {newPrice}
             </div>
-          </div>
-          <div className="bag">
-            <IoBagCheck className='bag-icon' />
-          </div>
+            <div className="bag">
+              <BsFillBagFill className="bag-icon" />
+            </div>
+          </section>
         </div>
-        
-      </div>
-  )
-}
+      </section>
+    </fragment>
+  );
+};
 
-export default card
+export default Card;

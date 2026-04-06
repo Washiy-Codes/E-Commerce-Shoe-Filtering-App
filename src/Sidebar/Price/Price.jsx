@@ -8,7 +8,7 @@ const Price = ({handleChange}) => {
         <div className="price-input-container">
           <label className="sidebar-label-container">
           <input onChange={handleChange} type="radio" value="" name="test2" />
-          <span className="checkmark"></span>All
+          <span className="all"></span>All
         </label>
 
         <Input

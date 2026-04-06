@@ -1,27 +1,44 @@
-import './Recommended.css'
-const Recommended = ({handleClick}) => {
+import Button from "../components/Button";
+import "./Recommended.css";
+
+const Recommended = ({ handleClick }) => {
   return (
-    <fragment>
-      <div className="recommended">
-        <h2 className="recommended-title">Recommended for you</h2>
+    <>
+      <div>
+        <h2 className="recommended-title">Recommended</h2>
         <div className="recommended-flex">
-          <button className="btn" onClick={handleClick} value="">
-            All Products
-          </button>
-          <button className="btn" onClick={handleClick} value="Nike">
-            Nike
-          </button>
-          <button className="btn" onClick={handleClick} value="Adidas">
-            Adidas
-          </button>
-          <button className="btn" onClick={handleClick} value="Vans">
-            Vans
-          </button>
+          <Button onClickHandler={handleClick} value="" title="All Products" />
+          <Button onClickHandler={handleClick} value="Nike" title="Nike" />
+          <Button onClickHandler={handleClick} value="Adidas" title="Adidas" />
+          <Button onClickHandler={handleClick} value="Puma" title="Puma" />
+          <Button onClickHandler={handleClick} value="Vans" title="Vans" />
         </div>
       </div>
+    </>
+  );
+};
 
-    </fragment>
-  )
-}
+export default Recommended;
 
-export default Recommended
+
+/* import Button from "../components/Button";
+import "./Recommended.css";
+
+const Recommended = ({ handleClick }) => {
+  return (
+    <>
+      <div>
+        <h2 className="recommended-title">Recommended</h2>
+        <div className="recommended-flex">
+          <Button onClickHandler={handleClick} value="" title="All Products" />
+          <Button onClickHandler={handleClick} value="Nike" title="Nike" />
+          <Button onClickHandler={handleClick} value="Adidas" title="Adidas" />
+          <Button onClickHandler={handleClick} value="Puma" title="Puma" />
+          <Button onClickHandler={handleClick} value="Vans" title="Vans" />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Recommended; */
