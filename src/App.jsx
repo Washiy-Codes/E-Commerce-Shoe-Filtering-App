@@ -20,7 +20,7 @@ function App() {
   const search = inputValue.toLowerCase();
   return (
     item.title.toLowerCase().includes(search) ||
-    item.category.toLowerCase().includes(search)
+    item.company.toLowerCase().includes(search)
   );
 });
   

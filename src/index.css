@@ -24,3 +24,78 @@ li {
   color: #222020;
   cursor: pointer;
 }
+.btns:hover {
+  background: #993232;
+  color: #fff;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+.card {
+  width: calc(25% - 30px);
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-6px);
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-details .title {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+}
+.card-reviews {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.card-reviews .total-reviews {
+  font-size: 0.85rem;
+  color: #555;
+}
+.card-prices .price {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-prices del {
+  color: #888;
+  margin-right: 8px;
+}
+
+.bag {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.bag-icon {
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #0a66c2;
+  transition: 0.2s;
+}
+
+.bag-icon:hover {
+  color: #004c9a;
+}
