@@ -18,8 +18,10 @@ function App() {
   const filteredItems = data.filter((item) => {
   const search = inputValue.toLowerCase();
   return (
-    item.title.toLowerCase().includes(search) ||
-    item.company.toLowerCase().includes(search)
+    item.company.toLowerCase() .includes(search) ||
+    item.color.toLowerCase() .includes(search) ||
+    item.category.toLowerCase() .includes(search)
+
   );
 });
   

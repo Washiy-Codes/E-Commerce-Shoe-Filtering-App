@@ -14,7 +14,7 @@ const data = [
   },
   {
     img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
-    title: "Nike Air Vapormax Plus",
+    title: "Nike Air Vapor Plus",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -151,7 +151,7 @@ const data = [
   },
   {
     img: "https://m.media-amazon.com/images/I/7128-af7joL._AC_UY575_.jpg",
-    title: "Pacer Future Doubleknit",
+    title: "Pacer Future Doublet",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -174,7 +174,7 @@ const data = [
   },
   {
     img: "https://m.media-amazon.com/images/I/719gdz8lsTS._AC_UX575_.jpg",
-    title: "Rainbow Chex Skate",
+    title: "Rainbow Chem Skate",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -251,7 +251,7 @@ const data = [
   },
   {
     img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
-    title: "Nike Air Vapormax Plus",
+    title: "Nike Air Vapor Plus",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
@@ -273,19 +273,8 @@ const data = [
     category: "heels",
   },
   {
-    img: "https://m.media-amazon.com/images/I/616sA5XUKtL._AC_UY675_.jpg",
-    title: "Chunky High Heel",
-    star: <AiFillStar className="rating-star" />,
-    reviews: "(123 reviews)",
-    prevPrice: "$140,00",
-    newPrice: "50",
-    company: "Adidas",
-    color: "black",
-    category: "heels",
-  },
-  {
     img: "https://m.media-amazon.com/images/I/71h5+MbEK7L._AC_UY625_.jpg",
-    title: "Amore Fashion Stilettos",
+    title: "Amor Fashion Stilettos",
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
