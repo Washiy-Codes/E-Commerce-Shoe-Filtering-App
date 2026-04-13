@@ -7,32 +7,32 @@ import './Category.css'
 
       <div>
         <label className="sidebar-label-container">
-          <input onChange={handleChange} type="radio" value="" name="test" />
-          <span className="all"></span>All
+          <input onChange={handleChange} type="radio" value="" name="shoes" />
+          <span className="all" ></span>All
         </label>
         <Input
           handleChange={handleChange}
           value="sneakers"
           title="Sneakers"
-          name="test"
+          name="shoes"
         />
         <Input
           handleChange={handleChange}
           value="flats"
           title="Flats"
-          name="test"
+          name="shoes"
         />
         <Input
           handleChange={handleChange}
           value="sandals"
           title="Sandals"
-          name="test"
+          name="shoes"
         />
         <Input
           handleChange={handleChange}
           value="heels"
           title="Heels"
-          name="test"
+          name="shoes"
         />
       </div>
     </div>

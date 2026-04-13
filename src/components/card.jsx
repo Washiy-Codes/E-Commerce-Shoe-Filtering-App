@@ -5,6 +5,7 @@ const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
     <fragment className="card-container">
       <section className="card">
         <img src={img} alt={title} className="card-img" />
+        <div style={{ marginBottom: "1px", backgroundColor: "#1d0392", width: "100%", height: "5px" }}></div>
         <div className="card-details">
           <h3 className="card-title">{title}</h3>
           <section className="card-reviews">
