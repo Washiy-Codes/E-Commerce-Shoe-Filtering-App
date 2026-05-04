@@ -14,22 +14,22 @@ A modern, responsive React application that allows users to **search, filter, an
 - Real-time search by shoe name
 - Case-insensitive and dynamic filtering
 
-### 🎯 Advanced Filters
+### Advanced Filters
 - Filter by **Category**, **Brand**, **Color**, **Price**, and **Recommended tags**
 - Sidebar filters, recommended buttons, and radio buttons integrated seamlessly
 
-### ⚛️ Modern React Architecture
+### Modern React Architecture
 - Component-driven design
 - Clean, reusable components (`Card`, `Sidebar`, `Navigation`, `Products`, `Recommended`)
 - Optimized filtering logic using `useState` and functional programming
 
-### 📱 Fully Responsive
+### Fully Responsive
 - Designed for **mobile, tablet, and desktop**
 - Flexible layout with **CSS Flexbox and Grid**
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |-----------|---------|
