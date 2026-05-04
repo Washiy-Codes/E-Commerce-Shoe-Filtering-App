@@ -1,4 +1,4 @@
-# 🥿 Shoe Filtering App
+# Shoe Filtering App
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -8,9 +8,9 @@ A modern, responsive React application that allows users to **search, filter, an
 
 ---
 
-## 🚀 Features
+##  Features
 
-## 🔎 Smart Search
+##  Smart Search
 - Real-time search by shoe name
 - Case-insensitive and dynamic filtering
 
