@@ -42,7 +42,7 @@ A modern, responsive React application that allows users to **search, filter, an
 ##Live Demo
 [try it here]( https://washiy-codes.github.io/E-Commerce-Shoe-Filtering-App)
 
-## 📦 Installation
+## Installation
 
 Clone the repository:
 
