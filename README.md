@@ -37,7 +37,7 @@ A modern, responsive React application that allows users to **search, filter, an
 | **Vite / CRA** | Development and bundling |
 
 ---
-##Live Demo
+## Live Demo
 [try it here]( https://washiy-codes.github.io/E-Commerce-Shoe-Filtering-App)
 
 ## Installation
