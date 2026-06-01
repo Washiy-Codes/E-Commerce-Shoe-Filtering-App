@@ -8,8 +8,6 @@ A modern, responsive React application that allows users to **search, filter, an
 
 ---
 
-##  Features
-
 ##  Smart Search
 - Real-time search by shoe name
 - Case-insensitive and dynamic filtering
