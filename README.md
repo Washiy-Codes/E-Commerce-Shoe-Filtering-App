@@ -34,7 +34,7 @@ A modern, responsive React application that allows users to **search, filter, an
 | **React.js** | UI library for building components |
 | **JavaScript (ES6+)** | Frontend logic & interactivity |
 | **CSS / Flexbox / Grid** | Layout and responsive design |
-| **Vite / CRA** | Development and bundling |
+| **Vite | Development and bundling |
 
 ---
 ## Live Demo
