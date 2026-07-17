@@ -2,4 +2,26 @@
   margin-top: 10px;
   padding: 10px 0;
   font-weight: bold;
+  font-size: 18px;
 }
+
+/* .color{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.sidebar-label-container input[type="radio"]:checked {
+  border: 2px solid #000;
+}
+.sidebar-label-container {
+  display: flex;
+  align-items: center; 
+  gap: 10px;           
+}  */
