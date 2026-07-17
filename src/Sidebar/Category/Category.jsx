@@ -3,12 +3,11 @@ import './Category.css'
  const Category = ({handleChange}) => {
   return (
     <div>
-      <h2 className="sidebar-title">Category</h2>
-
+      <h3 className="sidebar-title">Category</h3>
       <div>
-        <label className="sidebar-label-container">
-          <input onChange={handleChange} type="radio" value="" name="shoes" />
-          <span className="all" ></span>All
+        <label name="shoes" className="sidebar-label-container">
+          <input onChange={handleChange} type="radio" value="" name="shoes" className="all"/>
+          All
         </label>
         <Input
           handleChange={handleChange}

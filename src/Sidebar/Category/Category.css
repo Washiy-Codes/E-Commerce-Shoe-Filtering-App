@@ -1,47 +1,20 @@
-.sidebar-title {
+/* .sidebar-title {
   font-weight: bold;
   padding: 10px 0;
+  font-size:18px;
   margin-top: 10px;
 }
 
-.sidebar-items {
-  margin-top: 20px;
-}
-
-.sidebar-label-container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 .sidebar-label-container input {
-  position: absolute;
-  opacity: 50%;
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #110d0d;
+  -webkit-appearance: none;
+  appearance: none;        
+  flex-shrink: 0;           
+  height: 15px;           
+  width: 15px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
-.all {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #110d0d;
-  border-radius: 50%;
-}
 
 .all {
   background: linear-gradient(blue, crimson);
@@ -78,3 +51,16 @@
   margin-top: 3rem;
   border-color: #f7f7f7;
 }
+
+.sidebar-label-container input[value=""] {
+  background: linear-gradient(135deg, blue, crimson);
+}
+.sidebar-label-container input[type="radio"]:checked {
+  outline: 2px solid #2196f3;
+  outline-offset: 2px;
+}
+.line {
+  margin-top: 2rem;
+  border: none;
+  border-top: 1px solid #e5e5e5;
+}  */
