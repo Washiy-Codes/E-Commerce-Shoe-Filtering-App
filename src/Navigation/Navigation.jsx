@@ -1,11 +1,16 @@
 import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
 import "./Navigation.css";
+import Cart from "../cart/cart";
 
-const Navigation = ({ inputValue, handleInputChange }) => {
+const Navigation = ({ inputValue, handleInputChange, handleClearCart, cartItems, handleRemoveFromCart }) => {
   return (
+    <div>
      <nav>
       <div className="nav-input">
+        {/* <div className="logo-container">
+         <h1>🛒</h1>
+       </div> */}
         <input
           className="search-input"
           type="text"
@@ -25,7 +30,10 @@ const Navigation = ({ inputValue, handleInputChange }) => {
           <AiOutlineUserAdd className="nav-icons" />
         </a>
       </div>
+      <Cart cartItems={cartItems} handleClearCart={handleClearCart} handleRemoveFromCart={handleRemoveFromCart} />
     </nav>
+    <div className="hr"></div>
+    </div>
   )
 }
 

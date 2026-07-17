@@ -1,11 +1,18 @@
 nav {
   display: flex;
-  border-bottom: 2px solid #141414;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
   z-index: 999;
   margin-left: 2rem;
+}
+.hr {
+  margin-top: 1rem;
+  border: none;
+  height: 1px;
+  width: 84%;
+  background-color: #0c0c0c;
+  margin-left: auto;
 }
 
 input {
@@ -13,14 +20,22 @@ input {
   border: none;
   background: #f7f6f6;
   outline: none;
-  margin-right: 20px;
+  margin-left: 20px;
   border-radius: 5px;
   position: relative;
-  width: 14rem;
+  width: 15rem;
 }
 
 .nav-icons {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 2rem;
+}
+
+.logo-container {
+  margin-right: 1rem;
+
+}
+.logo-container h1 {
+  margin-top: 1rem;
 }
