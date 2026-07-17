@@ -4,11 +4,11 @@ import './Price.css'
 const Price = ({handleChange}) => {
   return (
     <div className="price-container">
-      <h2 className="sidebar-title price-title">Price</h2>
+      <h3 className="sidebar-title price-title">Price</h3>
         <div className="price-input-container">
           <label className="sidebar-label-container">
           <input onChange={handleChange} type="radio" value="" name="test2" />
-          <span className="all"></span>All
+          All
         </label>
 
         <Input
