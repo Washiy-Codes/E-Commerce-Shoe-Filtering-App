@@ -40,19 +40,15 @@ li {
   gap: 20px;
 }
 .card {
-  transition: transform 0.2s ease-in-out;
-  border-radius: 15px;
-  width: 300px;
-  height: 350px;
+  border-radius: 10px;
+  width: 320px;
+  height: 360px;
   background-color: #f4f4f4;
   color:#0a0a0a;
   margin: 15px;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 2px solid #ccc;
-}
-.card:hover {
-  transform: translateY(-6px);
 }
 .card img {
   width: 100%;
@@ -83,9 +79,10 @@ li {
   font-weight: bold;
 }
 
-.card-prices del {
-  color: #888;
-  margin-right: 8px;
+.price-bag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .bag {
@@ -104,3 +101,53 @@ li {
 .bag-icon:hover {
   color: #004c9a;
 }
+.btn {
+  display: block;
+  cursor: pointer;
+  width: 100px;
+  color: var(--dark-grey);
+  background-color: var(--gold);
+  background-image: linear-gradient(var(--golden-yellow), var(--orange));
+  border-color: var(--gold);
+  border-width: 3px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(var(--yellow), var(--dark-orange));
+}
+.Add-to-cart-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+  margin: 30px auto 10px;
+}
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2ecc71; /* Nice green success background */
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  z-index: 9999; /* Keeps it appearing on top of everything else */
+  animation: slideIn 0.3s ease-out;
+}
+
+/* Smooth pop-in animation entry */
+@keyframes slideIn {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
