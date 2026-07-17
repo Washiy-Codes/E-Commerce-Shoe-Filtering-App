@@ -1,19 +1,13 @@
 .sidebar {
   width: 15%;
   position: fixed;
-  min-width:100px;
-  height: 100%;
+  min-width:75px;
+  height: 100vh;
   border-right: 2px solid #0e0d0d;
   z-index: 3;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  margin-left: 1rem;
 }
 
-.logo-container {
-  margin-bottom: 4rem;
-}
-
-.logo-container h1 {
-  margin-top: 1.3rem;
-}
