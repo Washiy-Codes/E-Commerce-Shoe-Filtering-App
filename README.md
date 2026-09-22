@@ -1,7 +1,6 @@
 # Shoe Filtering App
 ![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
 ![Last Commit](https://img.shields.io/github/last-commit/your-username/shoe-filtering-app)
 A modern, responsive React application that allows users to **search, filter, and explore shoes** by category, brand, color, and price. Designed with a clean UI, reusable components, and efficient filtering logic.
 
