@@ -1,5 +1,4 @@
 # Shoe Filtering App
-
 A modern, responsive React application that allows users to **search, filter, and explore shoes** by category, brand, color, and price. Designed with a clean UI, reusable components, and efficient filtering logic.
 
 ---
