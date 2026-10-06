@@ -13,10 +13,6 @@ A modern, responsive React application that allows users to **search, filter, an
 - Filter by **Category**, **Brand**, **Color**, **Price**, and **Recommended tags**
 - Sidebar filters, recommended buttons, and radio buttons integrated seamlessly
 
-### Modern React Architecture
-- Component-driven design
-- Clean, reusable components (`Card`, `Sidebar`, `Navigation`, `Products`, `Recommended`)
-- Optimized filtering logic using `useState` and functional programming
 
 ### Fully Responsive
 - Designed for **mobile, tablet, and desktop**
