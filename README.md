@@ -5,6 +5,9 @@
 A modern, responsive React application that allows users to **search, filter, and explore shoes** by category, brand, color, and price. Designed with a clean UI, reusable components, and efficient filtering logic.
 
 ---
+##  Smart Search
+- Real-time search by shoe name
+- Case-insensitive and dynamic filtering
 
 
 ### Advanced Filters
