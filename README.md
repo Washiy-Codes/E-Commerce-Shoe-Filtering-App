@@ -6,9 +6,6 @@ A modern, responsive React application that allows users to **search, filter, an
 
 ---
 
-##  Smart Search
-- Real-time search by shoe name
-- Case-insensitive and dynamic filtering
 
 ### Advanced Filters
 - Filter by **Category**, **Brand**, **Color**, **Price**, and **Recommended tags**
